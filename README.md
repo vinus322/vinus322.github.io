@@ -1,30 +1,32 @@
-# Hydejack Starter Kit
+# Adam Blog is a minimal clear theme for Jekyll
 
-A quicker, cleaner way to get started blogging with [Hydejack](https://qwtel.com/hydejack/).
+![Adam Blog - Imac](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-blog-imac.jpg?raw=true)
 
-## Quick Start
-### Running locally
-1. Clone repository (git users), or [download] and unzip.
-2. Open terminal, `cd` into root directory (where `_config.yml` is located)
-3. `bundle install` [^1]
-4. `bundle exec jekyll serve`
-5. Open <http://localhost:4000/hydejack-starter-kit/>
+## Demo
 
-### GitHub Pages
-1. Fork this repository.
-2. Go to **Settings**, rename repository to `<your github username>.github.io` (without the `<` `>`)
-3. Edit `_config.yml` (you can do this directly on GitHub)
-    1. Change `url` to `https://<your github username>.github.io` (without the `<` `>`)
-    2. Change `baseurl` to `''` (empty string)
-    3. **Commit changes**.
-4. Go to **Settings** again, look for **GitHub Pages**, set **Source** to **master branch**.
-5. Click **Save** and wait for GitHub to set up your new blag.
+Check the theme in action [Demo](https://artemsheludko.github.io/adam-blog/)
 
-## What's next?
-* Open files and read the comments
-* Read the [docs](https://qwtel.com/hydejack/docs/)
-* Buy the [PRO version](https://qwtel.com/hydejack/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+The main page would look like this:
 
-[^1]: Requires Bundler. Install with `gem install bundler`.
+![Main page preview](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-home-page.jpg?raw=true)
 
-[download]: https://github.com/qwtel/hydejack-starter-kit/archive/master.zip
+The post page would look like this:
+
+![Post page preview](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-post-example.jpg?raw=true)
+
+## Features
+
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [MailChimp](https://mailchimp.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- [Search](https://github.com/christian-fei/Simple-Jekyll-Search)
+
+## Installation:
+
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
+
+### License
+
+GNU General Public License v3.0
